@@ -18,6 +18,7 @@
   <li><asp:HyperLink ID="HyperLink3" runat="server" href="Clientes.aspx">Clientes</asp:HyperLink></li>
      <li><asp:HyperLink ID="HyperLink8" runat="server" href="Direcciones.aspx">Direcciones</asp:HyperLink></li>
   <li><asp:HyperLink ID="HyperLink5" runat="server" href="Facturacion.aspx">Facturacion </asp:HyperLink></li>
+     <li><asp:HyperLink ID="HyperLink9" runat="server" href="Producto.aspx">Productos </asp:HyperLink></li>
     <li><asp:HyperLink ID="HyperLink6" runat="server" href="RutinaAdmin.aspx">Rutinas </asp:HyperLink></li>
      <li><asp:HyperLink ID="HyperLink7" runat="server" href="Reportes.aspx">Reportes </asp:HyperLink></li>
 

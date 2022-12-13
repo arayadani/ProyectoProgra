@@ -285,14 +285,14 @@ exec ConsultarProducto
 
 ----borrar----
 create procedure BorrarProducto
-@nombre varchar(30)
+@nombre_producto varchar(30)
 as
 begin
 
-delete Producto where nombre=@nombre
+delete Producto where nombre_producto=@nombre_producto
 end
 
-exec BorrarProducto'blusa'
+exec BorrarProducto'Blusa'
 exec ConsultarProducto
 
 
@@ -300,28 +300,28 @@ exec ConsultarProducto
 ---si quiero update le pongo alter procedure---
 create procedure IngresarProductos    
 
-@nombre varchar(50)='',
-@precio float
+@nombre_producto varchar(50)='',
+@precio_producto float
 as
 begin
-insert into Producto (nombre,precio)values(@nombre,@precio)
+insert into Producto (nombre_producto,precio_producto)values(@nombre_producto,@precio_producto)
 end
 
-exec IngresarProductos'blusa','3549'
+exec IngresarProductos'sueta','8500'
 exec ConsultarProducto
 
 -----modificar----
 
 create procedure ActualizaProducto
-@nombre varchar(50),
-@precio float
+@nombre_producto varchar(50),
+@precio_producto float
 as
 begin
-	update Producto set nombre=@nombre,precio=@precio where nombre=@nombre
+	update Producto set nombre_producto=@nombre_producto,precio_producto=@precio_producto where nombre_producto=@nombre_producto
 end
 
 
-exec ActualizaProducto 'blusa','4500'
+exec ActualizaProducto 'blusa','7550'
 exec ConsultarProducto
 
 

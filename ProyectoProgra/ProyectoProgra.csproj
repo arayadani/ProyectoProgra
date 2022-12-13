@@ -93,6 +93,7 @@
     <Content Include="js\popper.js" />
     <Content Include="PPrincipalAdmin.aspx" />
     <Content Include="PPrincipalRegular.aspx" />
+    <Content Include="Producto.aspx" />
     <Content Include="Reportes.aspx" />
     <Content Include="RutinaAdmin.aspx" />
     <Content Include="Rutinas.aspx" />
@@ -153,6 +154,13 @@
     </Compile>
     <Compile Include="PPrincipalRegular.aspx.designer.cs">
       <DependentUpon>PPrincipalRegular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Producto.aspx.cs">
+      <DependentUpon>Producto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Producto.aspx.designer.cs">
+      <DependentUpon>Producto.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="regular.Master.cs">
