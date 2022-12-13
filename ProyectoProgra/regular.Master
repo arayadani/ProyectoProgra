@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="regular.master.cs" Inherits="ProyectoProgra.regular" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/regular.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <ul>
+  <li><asp:HyperLink ID="HyperLink1" runat="server" href="PPrincipalRegular.aspx">Inicio</asp:HyperLink></li>
+  <li><asp:HyperLink ID="HyperLink2" runat="server" href="Rutinas.aspx">Rutinas</asp:HyperLink></li>
+        <li></li>
+  
+  <li style="float:right"><asp:HyperLink ID="HyperLink4" runat="server" href="inicio.aspx">Cerrar Sesión</asp:HyperLink></li>
+</ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                    <br />
+                </p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+                <p>
+                    &nbsp;</p>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    </form>
+</body>
+</html>

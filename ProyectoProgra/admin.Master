@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="ProyectoProgra.admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Pagina Principal - Administrador</title>
+    <link href="css/admin.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div> 
+<ul>
+  <li><asp:HyperLink ID="HyperLink1" runat="server" href="PPrincipalAdmin.aspx">Inicio</asp:HyperLink></li>
+  <li><asp:HyperLink ID="HyperLink2" runat="server" href="Usuarios.aspx">Usuarios</asp:HyperLink></li>
+
+  <li><asp:HyperLink ID="HyperLink3" runat="server" href="Clientes.aspx">Clientes</asp:HyperLink></li>
+     <li><asp:HyperLink ID="HyperLink8" runat="server" href="Direcciones.aspx">Direcciones</asp:HyperLink></li>
+  <li><asp:HyperLink ID="HyperLink5" runat="server" href="Facturacion.aspx">Facturacion </asp:HyperLink></li>
+    <li><asp:HyperLink ID="HyperLink6" runat="server" href="RutinaAdmin.aspx">Rutinas </asp:HyperLink></li>
+     <li><asp:HyperLink ID="HyperLink7" runat="server" href="Reportes.aspx">Reportes </asp:HyperLink></li>
+
+  <li style="float:right"><asp:HyperLink ID="HyperLink4" runat="server" href="inicio.aspx">Cerrar Sesión</asp:HyperLink></li>
+</ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
